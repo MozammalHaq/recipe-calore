@@ -18,14 +18,14 @@ const Recipes = () => {
         title="Our Receipe"
         description="Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. "
       />
-      <div className="flex mb-10 gap-10">
-        <div className="w-[60%] grid grid-cols-2 gap-5">
+      <div className="flex flex-col md:flex-row mb-10 gap-10">
+        <div className="flex-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5">
           {recipes.map((recipe) => (
             <Recipe recipe={recipe} key={recipe.id} />
           ))}
         </div>
 
-        <div className="flex-1 bg-green-500 p-4">
+        <div className="w-full md:w-1/3 bg-green-500 p-4 text-center">
           <h2 className="text-white">Second Div (Remaining Space)</h2>
         </div>
       </div>
