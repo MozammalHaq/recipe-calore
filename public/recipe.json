@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "recipeImage": "https://example.com/images/pasta.jpg",
+    "recipeName": "Spaghetti Carbonara",
+    "shortDescription": "A classic Italian pasta dish with creamy sauce, bacon, and cheese.",
+    "ingredients": [
+      "Spaghetti",
+      "Bacon",
+      "Eggs",
+      "Parmesan cheese",
+      "Black pepper"
+    ],
+    "preparingTime": 20,
+    "calories": 400
+  },
+  {
+    "id": 2,
+    "recipeImage": "https://example.com/images/caesar_salad.jpg",
+    "recipeName": "Caesar Salad",
+    "shortDescription": "Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan.",
+    "ingredients": [
+      "Romaine lettuce",
+      "Croutons",
+      "Caesar dressing",
+      "Parmesan cheese",
+      "Anchovies"
+    ],
+    "preparingTime": 15,
+    "calories": 220
+  },
+  {
+    "id": 3,
+    "recipeImage": "https://example.com/images/chicken_curry.jpg",
+    "recipeName": "Chicken Curry",
+    "shortDescription": "A flavorful curry with tender chicken in a spicy sauce.",
+    "ingredients": [
+      "Chicken",
+      "Coconut milk",
+      "Curry powder",
+      "Onion",
+      "Garlic",
+      "Ginger"
+    ],
+    "preparingTime": 40,
+    "calories": 500
+  },
+  {
+    "id": 4,
+    "recipeImage": "https://example.com/images/vegan_tacos.jpg",
+    "recipeName": "Vegan Tacos",
+    "shortDescription": "Delicious plant-based tacos filled with veggies and black beans.",
+    "ingredients": [
+      "Tortillas",
+      "Black beans",
+      "Avocado",
+      "Tomato",
+      "Lettuce",
+      "Cilantro"
+    ],
+    "preparingTime": 25,
+    "calories": 350
+  },
+  {
+    "id": 5,
+    "recipeImage": "https://example.com/images/pancakes.jpg",
+    "recipeName": "Fluffy Pancakes",
+    "shortDescription": "Soft and fluffy pancakes perfect for a weekend breakfast.",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Baking powder",
+      "Sugar",
+      "Butter"
+    ],
+    "preparingTime": 15,
+    "calories": 330
+  },
+  {
+    "id": 6,
+    "recipeImage": "https://example.com/images/stir_fry.jpg",
+    "recipeName": "Vegetable Stir Fry",
+    "shortDescription": "A quick and healthy stir fry with a variety of fresh vegetables.",
+    "ingredients": [
+      "Broccoli",
+      "Carrot",
+      "Bell pepper",
+      "Soy sauce",
+      "Garlic",
+      "Ginger"
+    ],
+    "preparingTime": 20,
+    "calories": 220
+  },
+  {
+    "id": 7,
+    "recipeImage": "https://example.com/images/salmon.jpg",
+    "recipeName": "Grilled Salmon",
+    "shortDescription": "A simple and healthy grilled salmon recipe with lemon and herbs.",
+    "ingredients": [
+      "Salmon fillets",
+      "Lemon",
+      "Olive oil",
+      "Garlic",
+      "Rosemary"
+    ],
+    "preparingTime": 25,
+    "calories": 420
+  },
+  {
+    "id": 8,
+    "recipeImage": "https://example.com/images/omelette.jpg",
+    "recipeName": "Cheese Omelette",
+    "shortDescription": "A classic omelette stuffed with cheese, perfect for a quick meal.",
+    "ingredients": [
+      "Eggs",
+      "Cheddar cheese",
+      "Milk",
+      "Butter",
+      "Salt",
+      "Pepper"
+    ],
+    "preparingTime": 10,
+    "calories": 300
+  },
+  {
+    "id": 9,
+    "recipeImage": "https://example.com/images/lasagna.jpg",
+    "recipeName": "Beef Lasagna",
+    "shortDescription": "Rich and cheesy beef lasagna layered with pasta and tomato sauce.",
+    "ingredients": [
+      "Ground beef",
+      "Lasagna noodles",
+      "Tomato sauce",
+      "Ricotta cheese",
+      "Mozzarella cheese",
+      "Basil"
+    ],
+    "preparingTime": 60,
+    "calories": 600
+  },
+  {
+    "id": 10,
+    "recipeImage": "https://example.com/images/burger.jpg",
+    "recipeName": "Classic Cheeseburger",
+    "shortDescription": "Juicy beef patty with melted cheese, lettuce, and tomato on a toasted bun.",
+    "ingredients": [
+      "Ground beef",
+      "Cheddar cheese",
+      "Lettuce",
+      "Tomato",
+      "Bun",
+      "Pickles"
+    ],
+    "preparingTime": 15,
+    "calories": 450
+  }
+]
