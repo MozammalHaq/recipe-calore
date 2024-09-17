@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 import Orders from "../Order/Orders";
 import Recipe from "../Recipe/Recipe";
 import SectionTitle from "../SectionTitle/SectionTitle";
@@ -16,7 +17,12 @@ const Recipes = () => {
 
   // hanlde want to cook
   const handleCook = (item) => {
+    const added = cooks.find((add) => add.id === item.id);
+    if (added) {
+      return toast.error("already added");
+    }
     setCooks([...cooks, item]);
+    toast.success("Add as want to cook.");
   };
 
   // handle finished cooked and add to currently cooking table
@@ -26,10 +32,12 @@ const Recipes = () => {
 
     const ready = cooks.filter((cook) => cook.id !== id);
     setCooks(ready);
+    toast.success("Cooking finish");
   };
 
   return (
     <div>
+      <Toaster />
       <SectionTitle
         title="Our Receipe"
         description="Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. "
