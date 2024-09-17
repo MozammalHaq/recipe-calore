@@ -2,7 +2,7 @@ import { AiOutlineFire } from "react-icons/ai";
 import { FaRegClock } from "react-icons/fa";
 import recipeImage from "../../assets/recipe.jpg";
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleCook }) => {
   const { recipeName, shortDescription, ingredients, preparingTime, calories } =
     recipe;
 
@@ -29,7 +29,10 @@ const Recipe = ({ recipe }) => {
           <AiOutlineFire /> {calories} calories
         </p>
       </div>
-      <button className="bg-green-500 text-black py-2 px-4 font-bold rounded-full text-sm">
+      <button
+        onClick={() => handleCook(recipe)}
+        className="bg-green-500 text-black py-2 px-4 font-bold rounded-full text-sm"
+      >
         Want to Cook
       </button>
     </div>
